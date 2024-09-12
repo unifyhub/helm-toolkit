@@ -1,14 +1,20 @@
 apiVersion: v1
 entries:
   helm-toolkit:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2024-09-12T17:30:26.12898+03:00"
-    description: A Helm chart for Kubernetes
-    digest: 325bee1f4a5a8f9a3e607702a77f4e4c8de0bf8f303f5c29c87a07e5c25777da
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2024-09-12T23:05:48.111961+03:00"
+    description: OpenStack-Helm Helm-Toolkit
+    digest: 727d1cac50403689148938f2e2a398ad82d7656a9e8fd7e0235d2831b216f3d9
+    home: https://docs.openstack.org/openstack-helm
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/OpenStack-Helm/OpenStack_Project_OpenStackHelm_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
     name: helm-toolkit
-    type: application
+    sources:
+    - https://opendev.org/openstack/openstack-helm-infra
+    - https://opendev.org/openstack/openstack-helm
     urls:
-    - https://unifyhub.github.io/helm-toolkit/helm-toolkit-0.1.0.tgz
-    version: 0.1.0
-generated: "2024-09-12T17:30:26.126939+03:00"
+    - https://unifyhub.github.io/helm-toolkit/docs/helm-toolkit-0.2.69.tgz
+    version: 0.2.69
+generated: "2024-09-12T23:05:48.098422+03:00"
